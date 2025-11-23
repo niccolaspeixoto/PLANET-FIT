@@ -489,7 +489,7 @@ textarea:focus {
     .box-feedback{
         height: 250px;
         width: 300px;
-        margin-top: 30px;
+        margin: 30px 0;
     }
 
     .box-feedback:hover {

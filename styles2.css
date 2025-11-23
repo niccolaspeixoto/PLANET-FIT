@@ -8,6 +8,10 @@
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: rgb(255, 0, 0);
+}
+
 body, main{
     height: 100vh;
 }
@@ -27,7 +31,7 @@ header img{
 }
 
 header a{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 24px;
     cursor: pointer;
@@ -35,7 +39,7 @@ header a{
 }
 
 header a:hover{
-    color: red;
+    color: black;
 }
 
 header a:active{
@@ -48,6 +52,7 @@ header a:active{
     background-color: black;
     color: white;
     display: flex;
+    width: 90vw;
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -126,3 +131,64 @@ header a:active{
     box-shadow: rgb(145, 17, 17) 0px 13px 27px -5px, rgb(87, 8, 8) 0px 8px 16px -8px;
 }
     
+
+@media(max-width:450px){
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90vw;
+        height: 50px;
+        gap: 10px;
+        margin: 5px;
+        color: white;
+        
+    }
+    header img{
+        display: none;
+    }
+
+    header a{
+        font-size: 14px;
+    }
+
+    .plans{
+        height: 200vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+    position: static;
+    top: 20px;
+    text-align: center;
+    margin: 20px;
+    }
+
+    .box-plans{
+    padding: 30px;
+    width: 300px;
+    height: 500px;
+    
+    }
+
+    .box-plans a{
+    width: 200px;
+    }
+
+    .box-plans h1{
+    position: absolute;
+    bottom: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+
+    .box-plans p, ul{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 12px;
+    }
+}
