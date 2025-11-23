@@ -477,10 +477,12 @@ textarea:focus {
         flex-direction: column;
         height: 100vh;
         width: auto;
+        padding: 30px;
     }
 
     .title{ 
         position: static;
+        margin: 20px 0px;
 
     }
 
@@ -517,6 +519,7 @@ textarea:focus {
     .whatsapp{
         width: 300px;
         height: 50px;
+        margin-top: 20px;
     }
 
     .instagram{
@@ -524,5 +527,20 @@ textarea:focus {
         height: 50px;
 
     }
+
+    .formulario-fale-conosco {
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20%;
+    left: -290px;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 10px;
+    transition: left 0.5s ease;
+
+}
 }
 
