@@ -139,7 +139,7 @@ header a:active{
         align-items: center;
         justify-content: center;
         width: 90vw;
-        height: 50px;
+        height: 5vh;
         gap: 10px;
         margin: 5px;
         color: white;
@@ -151,6 +151,7 @@ header a:active{
 
     header a{
         font-size: 14px;
+        font-weight: bold;
     }
 
     .plans{
@@ -163,14 +164,13 @@ header a:active{
 
     .title {
     position: static;
-    top: 20px;
     text-align: center;
-    margin: 20px;
+    margin-top: 20px;
     }
 
     .box-plans{
     padding: 30px;
-    width: 300px;
+    width: 80%;
     height: 80vh;
     
     }
@@ -181,7 +181,7 @@ header a:active{
 
     .box-plans h1{
     position: absolute;
-    bottom: 110px;
+    bottom: 12vh;
     left: 50%;
     transform: translateX(-50%);
     }
@@ -190,5 +190,14 @@ header a:active{
     text-align: left;
     margin-bottom: 10px;
     font-size: 12px;
+    width: 60vw;
     }
+
+    .box-plans:hover{
+    transform: scale(1.1);
+    padding: 40px;
+    border: 1px solid rgb(255, 0, 0);
+    box-shadow: rgba(255, 0, 0, 0.25) 0px 50px 100px -20px, rgba(252, 0, 0, 0.3) 0px 30px 60px -30px, rgba(255, 1, 1, 0.35) 0px -2px 6px 0px inset;
+
+}
 }
