@@ -155,7 +155,7 @@ header a:active{
     }
 
     .plans{
-        height: 200vh;
+        height: 250vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -171,7 +171,7 @@ header a:active{
     .box-plans{
     padding: 30px;
     width: 80%;
-    height: 80vh;
+    height: 70vh;
     
     }
 
