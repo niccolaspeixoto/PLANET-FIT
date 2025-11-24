@@ -186,6 +186,7 @@ header a:active{
     .box-plans h1{
     position: absolute;
     bottom: 12vh;
+    margin-top: 2vh;
     left: 50%;
     transform: translateX(-50%);
     }
